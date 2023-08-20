@@ -14,7 +14,7 @@ export class NewsCard extends Component {
     }
 
     async componentDidMount(){
-        let url = "https://newsapi.org/v2/everything?q=technology%20AND%20sports&sortBy=relevancy&apiKey=9f54de8953a84aa5ba09037569be979f&page=1&pageSize=4";
+        let url = "https://newsapi.org/v2/everything?q=technology%20AND%20sports&sortBy=relevancy&apiKey=878cac41599a4cf18545f9494aabdd24&page=1&pageSize=4";
         let data = await fetch(url);
         let parsedData = await data.json()
         this.setState({article:parsedData.articles , totalArticles:parsedData.totalResults , loading:false})

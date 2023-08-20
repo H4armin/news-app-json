@@ -19,7 +19,7 @@ export class NewsCard extends Component {
     }
     
     async componentDidMount(){
-        let url = `https://newsapi.org/v2/everything?q=${this.props.category}&sortBy=popularity&apiKey=9f54de8953a84aa5ba09037569be979f&page=1&pageSize=${this.props.pageSize}`;
+        let url = `https://newsapi.org/v2/everything?q=${this.props.category}&sortBy=popularity&apiKey=878cac41599a4cf18545f9494aabdd24&page=1&pageSize=${this.props.pageSize}`;
         this.setState({loading:true})
         let data = await fetch(url);
         let parsedData = await data.json()
@@ -28,7 +28,7 @@ export class NewsCard extends Component {
     }
 
     prevPageData = async () => {
-        let url = `https://newsapi.org/v2/everything?q=${this.props.category}&sortBy=popularity&apiKey=9f54de8953a84aa5ba09037569be979f&page=${this.state.page - 1}&pageSize=${this.props.pageSize}`;
+        let url = `https://newsapi.org/v2/everything?q=${this.props.category}&sortBy=popularity&apiKey=878cac41599a4cf18545f9494aabdd24&page=${this.state.page - 1}&pageSize=${this.props.pageSize}`;
         this.setState({loading:true})
         let data = await fetch(url);
         let parsedData = await data.json()
@@ -45,7 +45,7 @@ export class NewsCard extends Component {
         if(this.state.page + 1 > Math.ceil(this.state.totalResults/20)){
 
         }else{
-            let url = `https://newsapi.org/v2/everything?q=${this.props.category}&sortBy=popularity&apiKey=9f54de8953a84aa5ba09037569be979f&page=${this.state.page + 1}&pageSize=${this.props.pageSize}`;
+            let url = `https://newsapi.org/v2/everything?q=${this.props.category}&sortBy=popularity&apiKey=878cac41599a4cf18545f9494aabdd24&page=${this.state.page + 1}&pageSize=${this.props.pageSize}`;
             this.setState({loading:true})
             let data = await fetch(url);
             let parsedData = await data.json()

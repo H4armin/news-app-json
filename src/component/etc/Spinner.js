@@ -26,5 +26,5 @@ export default function YouTube() {
       <Media loading />
       <Media />
     </Box>
-  );
+  );  
 }
