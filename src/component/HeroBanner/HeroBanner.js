@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { Box, color } from '@mui/system';
-import Button from '@mui/material/Button';
+import { Box} from '@mui/system';
 import Grid from '@mui/material/Grid'; // Grid version 1
 import { Typography } from '@mui/material';
 import HeroBannerImage from '../../img/earth_moon_transit_121207_1280x720.jpg';

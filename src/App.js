@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './component/Navbar/Navbar';
-import Header, { HeroBanner } from './component/HeroBanner/HeroBanner';
+import { HeroBanner } from './component/HeroBanner/HeroBanner';
 import LandingPage from './component/LandingPage/LandingPage';
 import { Routes, Route } from "react-router-dom";
 import NewsCard from './component/NewsCard/NewsCard';

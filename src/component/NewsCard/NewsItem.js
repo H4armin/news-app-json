@@ -10,7 +10,7 @@ import { Component } from 'react';
 export class NewsItem extends Component {
   render() {
 
-    let {title , description , imgUrl , category , newsUrl} = this.props
+    let {title , description , imgUrl , newsUrl} = this.props
 
     return (
         <Card sx={{ maxWidth: '85%', marginLeft: '5%' }}>
