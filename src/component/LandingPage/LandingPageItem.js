@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { Component } from 'react';
 import { Box } from '@mui/system';
-import '../App.css';
+import '../../App.css';
 
 export class NewsItem extends Component {
   render() {

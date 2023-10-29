@@ -1,0 +1,101 @@
+{
+    "articles": [
+        {
+            "category": "business",
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Angela Chen",
+            "title": "Sam Bankman-Fried Made Reasonable Business Decisions, Lawyers Claim",
+            "description": "As the FTX founder’s trial got underway, the prosecution claimed Bankman-Fried deliberately stole customer money and used it for his own trading. The defense countered that he always acted in good faith.",
+            "url": "https://www.wired.com/story/ftx-trial-sam-bankman-fried-opening-arguments/",
+            "urlToImage": "https://media.wired.com/photos/651ddd4a5e4951a83f5ef0a8/191:100/w_1280,c_limit/SBF-Trial-Opening-Arguments-Business-AP23277574817931.jpg",
+            "publishedAt": "2023-10-04T21:55:13Z",
+            "content": "Sam Bankman-Fried's cryptocurrency exchange FTX may have lost at least $8 billion in customer money, but he didn't intend to defraud anyone, his defense team said Wednesday during the opening arguments… [+2558 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Steve Dent",
+            "title": "Sony confirms data breach affecting nearly 7,000 employees",
+            "description": "Sony Interactive Entertainment (SIE) has warned around 6,800 current and former employees that their personal data was accessed via a data breach, according to a letter seen by Bleeping Computer. The nature of the personal information stolen by hackers was re…",
+            "url": "https://www.engadget.com/sony-confirms-data-breach-affecting-nearly-7000-employees-075945888.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/DlHhIDHXftm8zN7FN2W5_g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2023-10/8b0f86a0-6417-11ee-9a9f-1ae6c75d56a9",
+            "publishedAt": "2023-10-06T07:59:45Z",
+            "content": "Sony Interactive Entertainment (SIE) has warned around 6,800 current and former employees that their personal data was accessed via a data breach, according to a letter seen by Bleeping Computer. The… [+1549 chars]"
+        },
+        {
+            "category": "general",
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "Who's behind Israel-Gaza disinformation and hate online?",
+            "description": "How false claims, conspiracy theories, and hateful content shape the general public's view of the war.",
+            "url": "https://www.bbc.co.uk/news/world-middle-east-67114313",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/3F23/production/_131436161_mediaitem131411501.jpg",
+            "publishedAt": "2023-10-15T07:46:02Z",
+            "content": "Social media has been awash with false claims, conspiracy theories, and hateful content surrounding what's happening in Israel and Gaza - and questions over whether inauthentic accounts are being used… [+6650 chars]"
+        },
+        {
+            "category": "health",
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Andrew J. Hawkins",
+            "title": "Instacart will accept Medicare Advantage for grocery orders",
+            "description": "Instacart will accept Medicare Advantage, Medicaid, and other supplemental health benefits as payment for online grocery delivery starting next year.",
+            "url": "https://www.theverge.com/2023/10/3/23900758/instacart-medicare-advantage-medicaid-grocery-delivery",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/AmJ8M9rO8--lC5-omUHLT3BZMz0=/0x0:5760x3840/1200x628/filters:focal(2880x1920:2881x1921)/cdn.vox-cdn.com/uploads/chorus_asset/file/22250362/instacart_shopper_produce.jpg",
+            "publishedAt": "2023-10-03T12:00:00Z",
+            "content": "Instacart will accept Medicare Advantage for grocery orders\r\nInstacart will accept Medicare Advantage for grocery orders\r\n / The grocery delivery company is expanding its payment options to include M… [+2242 chars]"
+        },
+        {
+            "category": "science",
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Kate Yoder",
+            "title": "Sweat Is Helping You Survive Climate Change",
+            "description": "It's gross. It’s sticky. Here’s the science of how it has already saved your life.",
+            "url": "https://www.wired.com/story/sweat-is-helping-you-survive-climate-change/",
+            "urlToImage": "https://media.wired.com/photos/6517010c1d06817f3880d671/191:100/w_1280,c_limit/sweat-science-GettyImages-187562987.jpg",
+            "publishedAt": "2023-09-30T12:00:00Z",
+            "content": "The marketing campaign was a lasting success, even a century later. Last year, the global deodorant market was valued at $24 billion, and its on track to grow to $37 billion by the end of the decade,… [+3169 chars]"
+        },
+        {
+            "category": "sports",
+            "source": {
+                "id": null,
+                "name": "Gizmodo.com"
+            },
+            "author": "Cheryl Eddy",
+            "title": "Max Launches New Live Sports Streaming Tier",
+            "description": "As of this past weekend, the live-streaming sports selection on Max is a lot more robust—just in time for the MLB post-season and the NBA pre-season, and also good news for hockey and soccer fans, too. Read more...",
+            "url": "https://gizmodo.com/max-live-sports-streaming-bleacher-report-mlb-nba-games-1850911983",
+            "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/f9e917841e807bfef0e85b6e581627b3.jpg",
+            "publishedAt": "2023-10-10T13:39:00Z",
+            "content": "As of this past weekend, the live-streaming sports selection on Max is a lot more robustjust in time for the MLB post-season and the NBA pre-season, and also good news for hockey and soccer fans, too… [+1610 chars]"
+        },
+        {
+            "category": "technology",
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "James Trew",
+            "title": "Could MEMS be the next big leap in headphone technology?",
+            "description": "If you have a pair of in-ear headphones, there’s a good chance they are using a technology that’s several\r\n decades old\r\n. Despite attempts to introduce different, exotic-sounding systems like planar magnetic, electrostatic and even bone conduction, most IEMs…",
+            "url": "https://www.engadget.com/could-mems-be-the-next-big-leap-in-headphone-technology-173034402.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/VQuRxZCwmMSq5rNrFfNuUg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2023-10/822f5900-6d01-11ee-bdf7-fb8a2a17be7b",
+            "publishedAt": "2023-10-17T17:30:34Z",
+            "content": "If you have a pair of in-ear headphones, theres a good chance they are using a technology thats several\r\n decades old\r\n. Despite attempts to introduce different, exotic-sounding systems like planar m… [+6853 chars]"
+        }
+    ]
+}

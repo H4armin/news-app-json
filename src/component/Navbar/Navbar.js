@@ -72,7 +72,7 @@ function DrawerAppBar(props) {
           <Typography>
           <Link to = '/'> 
             <img
-              src= {require('../img/image-removebg-preview.png')}
+              src= {require('../../img/image-removebg-preview.png')}
               alt="news logo"
               style={{ marginLeft:"38%", marginTop: "1%" , width:"25%" }}
             />
@@ -85,6 +85,7 @@ function DrawerAppBar(props) {
               </Button>
             ))}
           </Box>
+          
         </Toolbar>
       </AppBar>
       <Box component="nav">

@@ -1,6 +1,6 @@
 
 import LandingPageCard from './LandingPageCard';
-import LandingNewsCard from './LandingNewsCard';
+import LandingNewsCard from '../LandingPageNewsCard/LandingNewsCard';
 
 import React from 'react'
 

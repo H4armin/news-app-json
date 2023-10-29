@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Grid } from '@mui/material'
 import LandingNewsItem from './LandingNewsItem';
+import source from './LandingNewsCard.json';
 
 export class LandingPageCard extends Component {
 
@@ -13,12 +14,26 @@ export class LandingPageCard extends Component {
     }
 
     async componentDidMount(){
-        let url = `https://newsapi.org/v2/everything?q=${this.props.category}&sortBy=relevancy&apiKey=878cac41599a4cf18545f9494aabdd24&pageSize=1`;
-        let data = await fetch(url);
-        let parsedData = await data.json()
-        console.log(`paerdfsdfsdf${data}`)
+        // let url = `https://newsapi.org/v2/everything?q=${this.props.category}&sortBy=relevancy&apiKey=878cac41599a4cf18545f9494aabdd24&pageSize=1`;
+        // let data = await fetch(url);
+        // let parsedData = await data.json()
+        // console.log(`paerdfsdfsdf${data}`)
 
-        this.setState({article:parsedData.articles , totalArticles:parsedData.totalResults})
+        // this.setState({article:parsedData.articles , totalArticles:parsedData.totalResults})
+
+        // From JSON
+
+        let parsedData = source.articles;
+        let temp = [];
+        if(this.props.category){
+          let category = this.props.category;
+          for (let i = 0; i < parsedData.length; i++) {
+            if(parsedData[i].category === category){
+              temp.push(parsedData[i])
+            }
+          }
+          this.setState({article:temp , totalArticles:temp})
+        }
     }
 
   render() {

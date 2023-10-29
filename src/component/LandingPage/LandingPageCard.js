@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Grid } from '@mui/material'
 import LandingPageItem from './LandingPageItem';
-
+import source from '../LandingPage/LandingPageCard.json'
 
 export class NewsCard extends Component {
 
@@ -14,11 +14,19 @@ export class NewsCard extends Component {
     }
 
     async componentDidMount(){
-        let url = "https://newsapi.org/v2/everything?q=technology%20AND%20sports&sortBy=relevancy&apiKey=878cac41599a4cf18545f9494aabdd24&page=1&pageSize=4";
-        let data = await fetch(url);
-        let parsedData = await data.json()
+
+      // From API
+
+        // let url = "https://newsapi.org/v2/everything?q=technology%20AND%20sports&sortBy=relevancy&apiKey=878cac41599a4cf18545f9494aabdd24&page=1&pageSize=4";
+        // let data = await fetch(url);
+        // let parsedData = await data.json()
+        // this.setState({article:parsedData.articles , totalArticles:parsedData.totalResults , loading:false})
+        // console.log(parsedData.articles)
+
+        // From JSON
+
+        let parsedData = source
         this.setState({article:parsedData.articles , totalArticles:parsedData.totalResults , loading:false})
-        console.log(parsedData.articles)
     }
   
 

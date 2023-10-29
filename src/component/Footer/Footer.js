@@ -22,7 +22,7 @@ function Footer() {
                 <Grid container spacing={6}>
                     <Grid item  xs={3} sx={{color:'black'}}>
                         <img
-                        src= {require('../img/image-removebg-preview.png')}
+                        src= {require('../../img/image-removebg-preview.png')}
                         alt="news logo"
                         style={{ marginLeft:"15%", marginTop: "10%" , width:"15%" }}
                         />

@@ -1,0 +1,57 @@
+{
+    "articles": [
+      {
+        "source": {
+          "id": "business-insider",
+          "name": "Business Insider"
+        },
+        "author": "Sponsor Post",
+        "title": "The marriage of sports and technology can help narrow the gender gap",
+        "description": "A recent event hosted by Tata Communications with Formula 1 showcased how women and girls are pursuing education and careers in STEM fields.",
+        "url": "https://www.businessinsider.com/sc/gender-equality-and-community-at-forefront-in-formula-1",
+        "urlToImage": "https://i.insider.com/6512dc3951acc80019f0c321?width=1200&format=jpeg",
+        "publishedAt": "2023-09-26T13:45:01Z",
+        "content": "STEM students with Rosanna Tennant, broadcast journalist and presenter on F1TV, and Ruth Buscombe of the Alfa Romeo F1 teamTata Communications\r\n<ul>\n<li>Initiatives to boost access for girls and wome… [+7153 chars]"
+      },
+      {
+        "source": {
+          "id": "business-insider",
+          "name": "Business Insider"
+        },
+        "author": "Nicholas Fearn",
+        "title": "As cloud tech powers the world's most popular sports leagues, everyone from executives and coaches to players and fans reap the benefits",
+        "description": "Cloud tech allows sports organizations to upgrade their businesses and fan experiences. Coaches use the cloud to boost game plans and player training.",
+        "url": "https://www.businessinsider.com/popular-sports-streamlined-cloud-tech-everyone-reaps-benefits-2023-10",
+        "urlToImage": "https://i.insider.com/651c755f617692f0d03e48cb?width=1200&format=jpeg",
+        "publishedAt": "2023-10-05T14:03:49Z",
+        "content": ".insider-raw-embed + p { display: none; }\r\n\n // put series title here\n const seriesTitle = \"Build IT\";\n // put sponsor text here\n const text = \"Presented by\";\n // put the viking id for the image here… [+11990 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Gizmodo.com"
+        },
+        "author": "Mack DeGeurin",
+        "title": "The Completely Unbelievable Story of the ‘Deepfake Cheer Mom’",
+        "description": "When Bucks County, Pennsylvania District Attorney Matthew Weintraub stepped up to a podium on March 15, 2021, he set in motion a chain reaction of events that would capture the attention of millions and manifest a host of festering anxieties about the dangers…",
+        "url": "https://gizmodo.com/deepfake-cheer-mom-sues-for-defamation-1850884295",
+        "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/34d191fcc04316a27b187a81c45e41c4.jpg",
+        "publishedAt": "2023-10-03T16:05:00Z",
+        "content": "When Bucks County, Pennsylvania District Attorney Matthew Weintraub stepped up to a podium on March 15, 2021, he set in motion a chain reaction of events that would capture the attention of millions … [+26602 chars]"
+      },
+      {
+        "source": {
+          "id": "wired",
+          "name": "Wired"
+        },
+        "author": "Joel Khalili",
+        "title": "Idris Elba Is Ready to Talk About Crypto",
+        "description": "During the crypto gold rush, Idris Elba says he turned down a lot of “mad opportunities.” Now he has partnered with the “crypto-for-good” Stellar Foundation.",
+        "url": "https://www.wired.com/story/idris-elba-crypto-stellar-development-foundation/",
+        "urlToImage": "https://media.wired.com/photos/65137289cc851e8856510fe0/191:100/w_1280,c_limit/Idris-Elba-Crypto-Business-1470604983.jpg",
+        "publishedAt": "2023-09-27T06:00:00Z",
+        "content": "Idris Elba learned about crypto at the same time as almost everyone else: when prices went through the roof. The British actor and filmmaker, best known for his roles in TV series The Wire and Luther… [+2764 chars]"
+      }
+    ]
+  }
+  
