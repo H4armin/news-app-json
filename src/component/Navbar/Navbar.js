@@ -64,9 +64,9 @@ function DrawerAppBar(props) {
           </IconButton>
           <Box sx={{ display: { xs: "none", sm: "block" , marginLeft : "19%"} }}>
             {navItems1.map((item) => (
-              <Button key={item} href= {item} sx={{color: "#000000" }}>
-                  {item}
-              </Button>
+              <Link to={`/${item}`} key={item} style={{ textDecoration: "none" }}>
+                <Button sx={{ color: "#000000" }}>{item}</Button>
+              </Link>
             ))}
           </Box>
           <Typography>
@@ -80,9 +80,9 @@ function DrawerAppBar(props) {
           </Typography>
           <Box sx={{marginRight : "22%"}}>
             {navItems2.map((item) => (
-              <Button key={item} href= {item} sx={{ color: "#000000" }}>
-                {item}
-              </Button>
+              <Link to={`/${item}`} key={item} style={{ textDecoration: "none" }}>
+                <Button sx={{ color: "#000000" }}>{item}</Button>
+              </Link>
             ))}
           </Box>
           
